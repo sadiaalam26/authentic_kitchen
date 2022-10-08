@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Authentic Kitchen</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+    body {
+        background-color: #dff9fb;
+        font-family: "Times New Roman", Georgia, Serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family:'Times New Roman', Times, serif;
+        letter-spacing: 5px;
+    }
+</style>
+</head>
+
+
+
+
+<body>
+
+ <!-- Navbar (sit on top) -->
+ 
+<nav class="navbar navbar-expand-lg  ">
+  <div class="container-fluid  ">
+    <a class="navbar-brand fs-1"  href="#">Authentic Kitchen</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="float-end">
+    <div class="collapse navbar-collapse float-end" id="navbarNavDropdown">
+      <ul class="navbar-nav float-end ">
+        <li class="nav-item ">
+          <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" style="background-color: #c1e4e9" href="menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu" style="background-color: #c1e4e9">
+                <li><a class="dropdown-item " href="#">Starters</a></li>
+                <li><a class="dropdown-item" href="#">Main Course</a></li>
+                <li><a class="dropdown-item" href="#">Beverages</a></li>
+                <li><a class="dropdown-item" href="#">Desserts</a></li>
+              </ul>
+            </li>
+          <a class="nav-link " aria-current="page" href="about_us.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact_us.html">Contact us</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>
+
+ <!-- sliders -->
+
+ <!-- slider component -->
+<div id="my_slider" class="carousel slide bg-light" data-bs-ride="carousel">
+  
+    <!-- indicator -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#my_slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#my_slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#my_slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#my_slider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+  
+    <!-- main components of the carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 500px">
+        <img src="assets/images/salmon-g945b48186_1280.jpg" class="d-block w-100 " alt="macaroons">
+        <div class="carousel-caption d-none d-md-block position-absolute top-0 start-0">
+          <h5 class=" fs-2" >Quality Consistently </h5>
+          <p>Home is where is the heart is.</p>
+          <p>Be bold, vibrant, and striking and come and taste our selection of products on offer.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 500px">
+        <img src="assets/images/shish-kebab-ge80256158_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block position-absolute top-0 start-0">
+          <h5 class="text-light fs-1 fw-bold">Contemporary Tasteful</h5>
+          <p>We promise a quality product with every product sold.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 500px">
+        <img src="assets/images/tea-gd9cb05fa0_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark fs-2">Spill the TEA</h5>
+        
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 500px" >
+        <img src="assets/images/food-g9a9035477_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block position-absolute top-0 start-0">
+          <h5 class=" fs-1 fw-bold ">INDULGE IN DECADENCE</h5>
+          <p class="bg-opacity-50">From freshly baked bread and doughnuts to eclairs and triple-decker wedding cakes, A wide variety of tempting treats, whipped up daily by our confectioners. All products are freshly from the oven, and we use only pure dairy cream in our preparations. We cater for birthdays, events and special occasions.</p>
+         
+        </div>
+      </div> 
+      <!--  -->
+
+    </div>
+
+    
+    <!-- slides control -->
+    <button class="carousel-control-prev active" type="button" data-bs-target="#my_slider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next active" type="button" data-bs-target="#my_slider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  
+<!-- Menu Section -->
+<div class="w3-row w3-padding-64" id="menu">
+  <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Bread Basket</h4>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+
+      <h4>Belgian Waffle</h4>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+
+      <h4>Scrambled eggs</h4>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+
+      <h4>Blueberry Pancakes</h4>
+      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+  </div>
+
+  <div class="w3-col l6 w3-padding-large">
+      <img src="https://www.w3schools.com/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+  </div>
+</div>
+
+  
+
+  
+
+  <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
